@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+/***** GLOBAL STYLES *****/
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}

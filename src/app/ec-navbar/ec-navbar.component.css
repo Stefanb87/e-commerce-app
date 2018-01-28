@@ -1,0 +1,41 @@
+#navbar {
+    position: relative;
+    background-color: lightgray;
+}
+
+#brand {
+    font-size: 20px;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#dropdown-user {
+    position: absolute;
+    display: inline-block;
+    border: 1px solid lightgray;
+    top: 70px;
+    margin-left: -70px;
+    padding: 5px 0px 0px 0px;
+}
+
+#dropdown-user li {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    display: block;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+#dropdown-user li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
